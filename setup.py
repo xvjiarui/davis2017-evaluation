@@ -5,6 +5,7 @@ if sys.version_info < (3, 6):
     sys.exit('Sorry, only Python >= 3.6 is supported')
 
 setup(
+    name='davis2017',
     python_requires='>=3.6, <4',
     install_requires=[
         'Pillow>=4.1.1',
